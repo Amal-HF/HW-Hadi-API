@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "compilerOptions": {
+      "outDir": "dist",
+      "exactOptionalPropertyTypes": false,
+      "noUnusedParameters": false,
+      "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
